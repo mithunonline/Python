@@ -41,7 +41,7 @@ def all_rotations(s: str) -> List[str]:
         raise TypeError("The parameter s type must be str.")
 
     return [s[i:] + s[:i] for i in range(len(s))]
-
+""" xyz"""
 
 def bwt_transform(s: str) -> Dict:
     """
